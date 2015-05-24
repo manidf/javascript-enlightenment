@@ -1,21 +1,14 @@
-# EditorConfig helps developers define and maintain consistent
-# coding styles between different editors and IDEs
-# editorconfig.org
-
+# top-most EditorConfig file
 root = true
 
-
-[*]
-
-# Change these settings to your own preference
+# 3 space indentation
+[*.{js,jsx,html,xml,scss,css,txt,log,md}]
 indent_style = space
-indent_size = 4
-
-# We recommend you to keep these unchanged
-end_of_line = lf
+indent_size = 3
 charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
 
-[*.md]
-trim_trailing_whitespace = false
+# 2 space indentation
+[*.{json,sh}]
+indent_style = space
+indent_size = 2
+charset = utf-8
